@@ -78,24 +78,38 @@
 
 goit-pythonweb-hw-06/
 ├── alembic/               # Міграції
+
 │   └── versions/          # Історія змін
+
 ├── models/                # SQLAlchemy-моделі
+
 ├── seed.py                # Заповнення БД Faker-даними
+
 ├── init_db.py             # Створення таблиць вручну
+
 ├── my_select.py           # SQL-запити 1–10 + додаткові
+
 ├── test_queries.py        # Тестування основних запитів
+
 ├── test_extra_queries.py  # Тестування додаткових запитів
+
 ├── main.py                # CLI для CRUD-операцій
+
 ├── config.py              # Налаштування підключення до БД
+
 ├── .env                   # URL для SQLAlchemy
+
 ├── alembic.ini            # Конфіг Alembic
+
 ├── .gitignore             # Ігнорує кеші, pycache, venv
+
 ├── requirements.txt       # Залежності
+
 └── README.md              # Цей файл
 
 ---
 
-##👤 Автор
+## 👤 Автор
 
 Олександр Ребенок
 
