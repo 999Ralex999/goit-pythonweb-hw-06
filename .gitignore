@@ -79,6 +79,17 @@ web_modules/
 .env.production.local
 .env.local
 
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Alembic & SQLAlchemy cache
+alembic/versions/__pycache__/
+models/__pycache__/
+*.db
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
@@ -134,3 +145,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
