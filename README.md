@@ -77,35 +77,36 @@
 ## 🗂 Структура проєкту
 
 goit-pythonweb-hw-06/
-├── alembic/               # Міграції
 
-│   └── versions/          # Історія змін
+├── alembic/                                     # Міграції
 
-├── models/                # SQLAlchemy-моделі
+│   └── versions/                                # Історія змін
 
-├── seed.py                # Заповнення БД Faker-даними
+├── models/                                      # SQLAlchemy-моделі
 
-├── init_db.py             # Створення таблиць вручну
+├── seed.py                                      # Заповнення БД Faker-даними
 
-├── my_select.py           # SQL-запити 1–10 + додаткові
+├── init_db.py                                   # Створення таблиць вручну
 
-├── test_queries.py        # Тестування основних запитів
+├── my_select.py                                 # SQL-запити 1–10 + додаткові
 
-├── test_extra_queries.py  # Тестування додаткових запитів
+├── test_queries.py                              # Тестування основних запитів
 
-├── main.py                # CLI для CRUD-операцій
+├── test_extra_queries.py                        # Тестування додаткових запитів
 
-├── config.py              # Налаштування підключення до БД
+├── main.py                                      # CLI для CRUD-операцій
 
-├── .env                   # URL для SQLAlchemy
+├── config.py                                    # Налаштування підключення до БД
 
-├── alembic.ini            # Конфіг Alembic
+├── .env                                         # URL для SQLAlchemy
 
-├── .gitignore             # Ігнорує кеші, pycache, venv
+├── alembic.ini                                  # Конфіг Alembic
 
-├── requirements.txt       # Залежності
+├── .gitignore                                   # Ігнорує кеші, pycache, venv
 
-└── README.md              # Цей файл
+├── requirements.txt                             # Залежності
+
+└── README.md                                    # Цей файл
 
 ---
 
